@@ -32,8 +32,6 @@ jobs:
 
 **Key change:** Line with `upload-sarif@v2` → change to `upload-sarif@v3`
 
-## Steps to Apply the Fix
-
 1. **Edit the workflow file** in your repository:
    - Go to `.github/workflows/ci.yml`
    - Click the pencil icon to edit
