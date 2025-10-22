@@ -28,15 +28,3 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
-```
-
-**Key change:** Line with `upload-sarif@v2` → change to `upload-sarif@v3`
-
-1. **Edit the workflow file** in your repository:
-   - Go to `.github/workflows/ci.yml`
-   - Click the pencil icon to edit
-   - Change `@v2` to `@v3` in the "Upload SARIF results file" step
-
-2. **Commit the change**:
-```
-   Update CodeQL action to v3
